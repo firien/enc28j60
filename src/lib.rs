@@ -199,7 +199,7 @@ where
         }
 
         // disable CLKOUT output
-        enc28j60.write_control_register(bank3::Register::ECOCON, 0)?;
+        // enc28j60.write_control_register(bank3::Register::ECOCON, 0)?;
 
         // define the boundaries of the TX and RX buffers
         // to workaround errata #5 we do the opposite of what section 6.1 of the data sheet
